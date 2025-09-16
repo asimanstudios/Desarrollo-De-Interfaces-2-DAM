@@ -84,3 +84,37 @@ system.outn.println("Hola Mundo");
 
     - Se pude aplicar esto a ficheros relativos dentro del repositorio para esto vamos a crear uno de ejemplo llamado leeme.txt.
     - Link: [Leeme txt](/leeme.txt)
+---
+## Imagenes
++ Se pueden incorporar imagenes dentro del texto medieante un enlace a la imagen. Poniendole una exclamacion antes del corchete.
+
+![Nutrias](https://www.wnct.com/wp-content/uploads/sites/99/2022/08/All-Three-Best.jpg)
+> Nutrias imagen de ejemplo.
++ Para el tamaño se pone esta barra | y el tamaño que le queremos poner aunque depende mucho del renderizador.
+
+---
+## PDF
++ En ciertos renderizadores podemos insertar documentos pdf dentro del documento a modo de enlace mas en los basicos no es de todo posible.
+---
+## Mencionar personas y equipos
++ Esto es muy propio de github mediante @ y el usuario en cuestion.
++ Ejemplo @asimanstudios 
+- Depende del interprete el poderse ver.
+---
+## ALERTAS
++ Es posible renderizarlo en github y algun otro renderizador en siitos como visual studio no es posible.
+
+> [!NOTE]
+> TEXTO
+
+> [!TIP]
+> TEXTO
+
+> [!IMPORTANT]
+> TEXTO
+
+> [!WARNING]
+> TEXTO
+
+> [!CAUTION]
+> TEXTO
