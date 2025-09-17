@@ -1,7 +1,7 @@
 > # **<span style="color:green">Desarrollo de Interfaces</span>** 
 ---
 > ## **Datos**
-- **Autor:** Adrián Simarro Manzano
+- **Autor:** Nombre de Autor
 - **Github:** [Enlace de Perfil de Github](https://github.com/asimanstudios)
 ---
 > ## **Breves apuntes de Markdown**
