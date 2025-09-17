@@ -118,3 +118,18 @@ system.outn.println("Hola Mundo");
 
 > [!CAUTION]
 > TEXTO
+
+---
+## Notas de Pie
+- Enlazo una nota al pie. Con [^numero o palabra] y en otro sitio se coloca la misma. No funciona en github ni visual. Depende del editor.
+
+Nota de Pie [^1]
+[^1] Esta es la nota al pie.
+
+---
+## Tablas
+- En markdown podemos usar tablas con la tuberia.
+| Columna 1 | Columna 2 | Columna 3 |
+| --- | --- | --- |
+| Dato1 | Dato 2 | Dato 2 |
+| Dato 3 | Dato 4  | Dato 5 |
