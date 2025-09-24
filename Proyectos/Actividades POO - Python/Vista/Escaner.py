@@ -1,3 +1,5 @@
 class Escaner():
+    @staticmethod
     def pedirDato(dato:str):
-        return " "
+        dato = input ()
+        return dato
