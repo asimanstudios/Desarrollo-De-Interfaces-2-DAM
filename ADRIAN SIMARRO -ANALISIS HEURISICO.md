@@ -1,5 +1,5 @@
 # ANALISIS HEURISICO
-> Análisis heuristico de las 10 heuristicas que hay de la web indicada detallado cuales se cumplen y cuales no y dar ejemplo de como las cumple o como no las cumple. Se ha de indicar si cumple o no cumple y por qué.
+> Análisis heuristico de las 10 heuristicas que hay de la web indicada detallando cuales se cumplen y cuales no y dar ejemplo de como las cumple o como no las cumple. Se ha de indicar si cumple o no cumple y por qué.
 - 10 EURISTICAS
 - 1 EJEMPLO DE SI CUMPLE O NO HEURISTICAS
 - WEB A ANALIZAR: https://www.toroayto.es/
