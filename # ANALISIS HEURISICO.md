@@ -42,6 +42,40 @@ A la hora de navegar el contenido y la url cambian para indicarle al usuario que
 #### **5. Prevención de errores**
 
 **Cumple:** NO
-* **Ejemplo:** Habría que analizarla mas profundamente pero en principio si la interfaz esta diseñada para ayudar a prevenir errores. Los campos en el formulario de inicio de sesión por ejemplo vienen etiquetados correctamente para identificar el campo a introducir eso si es mejorable ya que no indica un ejemplo del formato del campo como un placeholder. Ademas a la hora de enviar 
+* **Ejemplo:** Habría que analizarla mas profundamente pero en principio si la interfaz esta diseñada para ayudar a prevenir errores. Los campos en el formulario de inicio de sesión por ejemplo vienen etiquetados correctamente para identificar el campo a introducir eso si es mejorable ya que no indica un ejemplo del formato del campo como un placeholder. Evita errores si pero no muestra mensaje de error al usuafio del mismo por ejemplo si enviamos un login vacio nos salra a registro simplemente lo cual para un usuario inexperto genera confusión.
 
 ---
+
+
+#### **6. Reconocimiento antes que recuerdo**
+
+**Cumple:** NO.
+* **Ejemplo:** La información y las opciones clave son siempre visibles en la web. El menú de navegación está a la vista, y los titulares de las noticias y eventos son descriptivos, lo que le permite al usuario reconocer lo que busca pero el hecho de tener todo almacenado en enlaces desplegabñes múltiples obligan al usuario a memorizar rutas lo que rompe este punto-
+
+---
+
+#### **7. Flexibilidad y eficiencia de uso**
+
+**Cumple:** Sí. Mejorable
+* **Ejemplo:** El diseño es simple y claro dentro del sitio, permite que los usuarios novatos encuentren la información rápidamente sin la necesidad de atajos u otras funciones medio complicadas. Eso si que esten todas las secciones agrupadas en la navegacion en listas muy grandes lo hace algo complicado de entender ademas de la animación que tiene que lo hace a veces tedioso de usar causando desorientacion. No ofrece atajos para usuarios avanzados por lo que solo cumple para los usuarios inexpertos.
+
+---
+
+#### **8. Diseño estético y minimalista**
+
+**Cumple:** Sí.
+* **Ejemplo:** La interfaz es limpia y se centra en el contenido principal que ofrece la web. La información se organiza en bloques diferentes definidos para cadada tema de forma modularizada por así decirlo, lo que evita el desorden visual y facilita la lectura todo esto sin meter estilos extra innecesarios a excepción de la animacion de la navegación que puede llegar a ser incomoda.
+
+---
+
+#### **9. Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores**
+
+**Cumple:** Sí.
+* **Ejemplo:** El sitio ofrece mecanismos de ayuda para resolver problemas. Como tal ofrece una opción de He olvidado la contraseña en el área de usuario es un ejemplo de cómo el sistema asiste a los usuarios para recuperarse de un error común tambiém ofrece un apartado en la parte de abajo de reporte de errores y ayuda en el footer.
+
+---
+
+#### **10. Ayuda y documentación**
+
+**Cumple:** Sí.
+* **Ejemplo:** Existen secciones dedicadas a proporcionar soporte. Estas son la de ayuda con esta web y otra de sugerencias para la web ademas de la ya mencionada de ayuda en la parte de abajo lo que permite al usuario recibir soporte e informarse aunque son un poco escuetas.
