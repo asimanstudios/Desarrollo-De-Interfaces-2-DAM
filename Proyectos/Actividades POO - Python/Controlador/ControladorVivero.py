@@ -1,9 +1,9 @@
-from ..Servicio.ServiciosViviero import ServiciosViviero
-from ..Vista.Consola import Consola
+from Servicio.ServiciosViviero import ViveroVillanueva
+from Vista.Consola import Consola
 
 class ControladorVivero:
     def __init__(self):
-        self.servicio = ServiciosViviero()
+        self.servicio = ViveroVillanueva()
 
     def iniciar(self):
         Consola.ejecucionMenu(self)

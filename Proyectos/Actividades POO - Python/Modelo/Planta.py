@@ -1,7 +1,5 @@
 from abc import ABC, abstractmethod
-
-class PlantaException(Exception):
-    pass
+from .PlantaException import PlantaException
 
 class Planta(ABC):
     def __init__(self, nombre: str, altura: int, precio: float):

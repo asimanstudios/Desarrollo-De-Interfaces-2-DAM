@@ -1,19 +1,22 @@
 from typing import List
-from ..Modelo.Planta import Planta, PlantaException
-from ..Modelo.Cactus import Cactus
-from ..Modelo.Flor import Flor
+from Modelo.Planta import Planta, PlantaException
+from Modelo.Cactus import Cactus
+from Modelo.Flor import Flor
+from Modelo.ViveroInterface import ViveroInterface
 
-class ServiciosVivero:
+class ViveroVillanueva(ViveroInterface):
     def __init__(self):
         self._plantas: List[Planta] = []
 
-    def agregarCactus(self, nombre: str, altura: int, precio: float, tieneEspinas: bool):
+    def agregarCactus(self, nombre: str, altura: int, precio: float, tieneEspinas: bool) -> Planta:
         cactus = Cactus(nombre, altura, precio, tieneEspinas)
         self._plantas.append(cactus)
+        return cactus
 
-    def agregarFlor(self, nombre: str, altura: int, precio: float, color: str):
+    def agregarFlor(self, nombre: str, altura: int, precio: float, color: str) -> Planta:
         flor = Flor(nombre, altura, precio, color)
         self._plantas.append(flor)
+        return flor
 
     def buscarPlanta(self, nombre: str) -> Planta | None:
         for planta in self._plantas:
@@ -27,7 +30,7 @@ class ServiciosVivero:
             try:
                 planta.precio = precio
             except PlantaException:
-                pass  # Price validation already handled in setter
+                pass  
             return planta
         return None
 
@@ -45,3 +48,4 @@ class ServiciosVivero:
 
     def buscarPorPrecioMenorA(self, precio: float) -> List[Planta]:
         return [p for p in self._plantas if p.precio <= precio]
+    
