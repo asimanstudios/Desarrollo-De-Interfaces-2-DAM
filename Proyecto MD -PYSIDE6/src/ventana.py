@@ -22,5 +22,5 @@ class Ventana(QWidget):
         self.setLayout(layout)
 
     def btn_clicado(self):
-    # Cuando se hace click al boton se hace un print
-    print("ILLO!!! Botón clicado!")
+        # Cuando se hace click al boton se hace un print
+        print("ILLO!!! Botón clicado!")
