@@ -17,5 +17,4 @@ def create(parent=None):
     groupbox.setLayout(layout)
 
     exposed = {"label header": label,"infoLabel": infoLabel}
-
     return groupbox, exposed
