@@ -1,11 +1,10 @@
-from PySide6 import QtWidgets, QApplication
-from widgets import ( checkbox,combobox,datetimeedit,dial,groupbox,label,lineedit,pushbutton,radiobuttons,slider,tablewidget,tabwidget,textedit )
+from PySide6.QtWidgets import QApplication
+from widgets import ( checkbox,combobox,datetimeedit,dial,groupbox,label,lineedit,pushbutton,radiobuttons,slider,tablewidget,tabwidget,textedit,demoWindow )
 
 if __name__ == "__main__":
-    import  sys 
-    from demoWindow import DemoWindow
+    import  sys
     app = QApplication(sys.argv) #cargar app
 
-    window = DemoWindow()
+    window = demoWindow.DemoWindow()
     window.show()
     sys.exit(app.exec())
