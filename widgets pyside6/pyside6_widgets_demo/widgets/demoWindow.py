@@ -18,7 +18,7 @@ class DemoWindow(QMainWindow): # hereda de qmainwindow
         self.setCentralWidget(self.central_widget)
 
         # layout
-        self.main_layout = QBoxLayout(self.central_widget)
+        self.main_layout = QBoxLayout(QBoxLayout.TopToBottom, self.central_widget) #  self.main_layout = QBoxLayout(self.central_widget)
 
         self.refs = ()
         self.add_label()

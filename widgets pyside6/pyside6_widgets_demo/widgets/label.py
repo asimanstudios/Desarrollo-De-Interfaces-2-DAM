@@ -8,7 +8,7 @@ def create(parent=None):
     label = QLabel("Este es un ejemplo de contenido dentro de un QGroupBox.")
     label.setAlignment(Qt.AlignCenter)
 
-    infoLabel = QLabel ("Selales - Ninguna | Metodos: getText(str), setAlignment(...)")
+    infoLabel = QLabel ("Señales - Ninguna | Metodos: getText(str), setAlignment(...)")
     infoLabel.setStyleSheet("color: gray; Font-Size: 10pt;")
 
     layout.addWidget(label)
